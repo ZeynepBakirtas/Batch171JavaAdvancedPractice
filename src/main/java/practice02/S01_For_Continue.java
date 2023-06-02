@@ -20,7 +20,5 @@ public class S01_For_Continue {
 
         }
         System.out.println(toplam);
-
-
     }
 }

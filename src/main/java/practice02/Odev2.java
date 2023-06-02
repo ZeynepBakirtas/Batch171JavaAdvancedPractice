@@ -1,5 +1,8 @@
 package practice02;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class Odev2 {
     /*
         Kelime Tahmin Oyunu
@@ -18,4 +21,45 @@ public class Odev2 {
         - Oyuncunun doğru kelimeyi bulması durumunda, tebrik mesajı gösterilmeli ve oyun sonlandırılmalıdır.
         - Oyuncunun kalan hakları sıfır olduğunda, olumsuz bir mesaj ve doğru kelime gösterilmelidir.
      */
+
+    public static void main(String[] args) {
+        String word[] = {"kiraz", "kayisi", "erik", "muz", "elma"};
+
+        kelimeSec(word);
+
+    }
+
+
+    private static void kelimeSec(String[] word) {
+        int intSayi = (int) (Math.random()*5);
+        String kelime = word[intSayi];
+        String ayrilmis[] = kelime.split("");
+        System.out.println(kelime);
+
+
+        String kelimeSayisi = "";
+        for (int i = 0; i < kelime.length(); i++) {
+                kelimeSayisi += "_";
+        }
+
+        System.out.println("Kelimenin uzunlugu: "+ kelime.length() + " harfli: " + kelimeSayisi);
+        Scanner input = new Scanner(System.in);
+
+        int counter = 5;
+        do{
+            System.out.println("Harfi giriniz");
+            String harf = input.next();
+            for (int i = 0; i < kelime.length(); i++) {
+                if(ayrilmis[i].equalsIgnoreCase(harf)){
+                    ayrilmis[i] = harf;
+                    System.out.println(Arrays.toString(ayrilmis));
+                } else {
+                    System.out.println(counter + " hakkiniz kalmistir.");
+                }
+            }
+            counter--;
+        } while (counter>0);
+
+    }
 }
+
