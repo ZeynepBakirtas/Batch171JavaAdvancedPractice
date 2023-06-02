@@ -25,8 +25,6 @@ public class S02_NestedFor_Matrix {
             }
             System.out.println();
         }
-
-
     }
 
 }
