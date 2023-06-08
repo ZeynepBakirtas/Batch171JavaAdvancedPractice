@@ -25,41 +25,45 @@ public class Odev2 {
     public static void main(String[] args) {
         String word[] = {"kiraz", "kayisi", "erik", "muz", "elma"};
 
-        kelimeSec(word);
+        int num = (int) (Math.random() * 5);
+        String istenilenKelime = word[num];
+        String letter[] = istenilenKelime.split("");//istenilen kelimeyi harflere ayirdik
+        System.out.println(istenilenKelime);
 
-    }
+        String cizgi[] = new String[istenilenKelime.length()];
+        Arrays.fill(cizgi, "_"); //istenilen kelimenin harfleri kadar cizgi olusturduk
 
+        System.out.println("Kelimenin uzunlugu: " + istenilenKelime.length() + " harfli: " + Arrays.toString(cizgi));
 
-    private static void kelimeSec(String[] word) {
-        int intSayi = (int) (Math.random()*5);
-        String kelime = word[intSayi];
-        String ayrilmis[] = kelime.split("");
-        System.out.println(kelime);
-
-
-        String kelimeSayisi = "";
-        for (int i = 0; i < kelime.length(); i++) {
-                kelimeSayisi += "_";
-        }
-
-        System.out.println("Kelimenin uzunlugu: "+ kelime.length() + " harfli: " + kelimeSayisi);
         Scanner input = new Scanner(System.in);
 
         int counter = 5;
-        do{
-            System.out.println("Harfi giriniz");
-            String harf = input.next();
-            for (int i = 0; i < kelime.length(); i++) {
-                if(ayrilmis[i].equalsIgnoreCase(harf)){
-                    ayrilmis[i] = harf;
-                    System.out.println(Arrays.toString(ayrilmis));
-                } else {
-                    System.out.println(counter + " hakkiniz kalmistir.");
+
+        do {
+            System.out.println("Harf giriniz...");
+            String girilenHarf = input.next().toLowerCase().substring(0, 1);
+
+            for (int i = 0; i < cizgi.length; i++) {
+                if (letter[i].equals(girilenHarf)) {
+                    cizgi[i] = girilenHarf;//Dogru harf girdiginde bulundugu index deki cizgiye ata
+                    System.out.println("Dogru harf girdiniz: " + Arrays.toString(cizgi));
                 }
             }
-            counter--;
-        } while (counter>0);
 
+            if (cizgi.equals(letter)) {
+                System.out.println("Tebrikler oyunu basariyla bitirdiniz...");
+                break;
+            }
+
+            if (!istenilenKelime.contains(girilenHarf)) {
+                counter--;
+                System.out.println(counter + " hakkiniz kalmistir.");
+                if (counter == 0) {
+                    System.out.println("Maalesef bu sefer bilemediniz :( bir dahaki sefer basaracaginiza inaniyoruz: " + word);
+                    break;
+                }
+            }
+        } while (counter > 0);
     }
 }
 

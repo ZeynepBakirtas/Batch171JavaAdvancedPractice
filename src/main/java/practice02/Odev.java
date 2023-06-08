@@ -23,6 +23,11 @@ public class Odev {
             - Oyuncu 1'e basarsa, oyun yeniden başlatılır ve yeni bir rastgele sayı seçilir.
             - Oyuncu herhangi bir sayıya basarsa, oyun sona erer ve program sonlanır.
      */
+    /*
+    Scanner objesini her metot çağırdığında oluşturmak yerine class seviyesinde veya main metotta bir
+    kere oluşturup kullanabilirsin. class'ta oluşturacaksan static yapabilirsin, main metotta kullanacaksan
+    sayiTahmini metodunu parametreli yapabilirsin. Örneğin sayiTahmini(Scanner input)
+     */
     public static void main(String[] args) {
         sayiTahmini();
         System.out.println("Yeniden bekleriz:)");
@@ -33,7 +38,7 @@ public class Odev {
         Scanner input = new Scanner(System.in);
         System.out.println("1-100 arası bir sayı tahmini giriniz");
 
-        int random = (int) (Math.random() * 100);
+        int random = (int) (Math.random() * 100)+1;
 
         for (int i = 1; i < 11; i++) {
             int suggestion = input.nextInt();
