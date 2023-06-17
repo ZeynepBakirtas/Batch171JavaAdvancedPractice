@@ -33,10 +33,13 @@ public class Odev2 {
         String cizgi[] = new String[istenilenKelime.length()];
         Arrays.fill(cizgi, "_"); //istenilen kelimenin harfleri kadar cizgi olusturduk
 
-        System.out.println("Kelimenin uzunlugu: " + istenilenKelime.length() + " harfli: " + Arrays.toString(cizgi));
+        System.out.print("Kelimenin uzunlugu: " + istenilenKelime.length() + " harfli: ");
+        for (String str : cizgi) {
+            System.out.print(str + " ");
+        }
+        System.out.println();
 
         Scanner input = new Scanner(System.in);
-
         int counter = 5;
 
         do {

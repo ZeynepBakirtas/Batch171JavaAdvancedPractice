@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="331981cd-7cdb-45bc-aecf-49b445d8d50a" name="Changes" comment="f">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S01_PassByValue_IsimDuzenleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S02_PassByValue_SayiDuzenleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S03_PassByValue_ArrayDuzenleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S04_MethodOverloading_IsimDuzenleme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S05_MethodOverloading_Kargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S06_MethodOverloading_AracKiralama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/S08_ArrayList_Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/s07_constructor_ogrenci/Ogrenci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice03/s07_constructor_ogrenci/OgrenciRunner.java" afterDir="false" />
+    <list default="true" id="331981cd-7cdb-45bc-aecf-49b445d8d50a" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice04/GuncelSaat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice04/S01_DateTime_Gunler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice04/S02_DateTime_Saat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice04/S03_Varargs_KargoSirketi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice04/S04_Varargs_Restoran.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice04/S05_StringBuilder_FaktoriyelHesaplama.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice02/Odev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice02/Odev.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/practice02/Odev2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice02/Odev2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +45,13 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mustafatunc/IdeaProjects/Batch171JavaAdvancedPracticeNT/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.S08_ArrayList_Menu">
-    <configuration name="OgrenciRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice03.s07_constructor_ogrenci.OgrenciRunner" />
+  <component name="RunManager" selected="Application.S05_StringBuilder_FaktoriyelHesaplama">
+    <configuration name="GuncelSaat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice04.GuncelSaat" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice03.s07_constructor_ogrenci.*" />
+          <option name="PATTERN" value="practice04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S03_PassByValue_ArrayDuzenleme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice03.S03_PassByValue_ArrayDuzenleme" />
+    <configuration name="S02_DateTime_Saat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice04.S02_DateTime_Saat" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice03.*" />
+          <option name="PATTERN" value="practice04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S04_MethodOverloading_IsimDuzenleme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice03.S04_MethodOverloading_IsimDuzenleme" />
+    <configuration name="S03_Varargs_KargoSirketi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice04.S03_Varargs_KargoSirketi" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice03.*" />
+          <option name="PATTERN" value="practice04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S05_MethodOverloading_Kargo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice03.S05_MethodOverloading_Kargo" />
+    <configuration name="S04_Varargs_Restoran" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice04.S04_Varargs_Restoran" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice03.*" />
+          <option name="PATTERN" value="practice04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S08_ArrayList_Menu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice03.S08_ArrayList_Menu" />
+    <configuration name="S05_StringBuilder_FaktoriyelHesaplama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice04.S05_StringBuilder_FaktoriyelHesaplama" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice03.*" />
+          <option name="PATTERN" value="practice04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.S08_ArrayList_Menu" />
-        <item itemvalue="Application.OgrenciRunner" />
-        <item itemvalue="Application.S05_MethodOverloading_Kargo" />
-        <item itemvalue="Application.S03_PassByValue_ArrayDuzenleme" />
-        <item itemvalue="Application.S04_MethodOverloading_IsimDuzenleme" />
+        <item itemvalue="Application.S05_StringBuilder_FaktoriyelHesaplama" />
+        <item itemvalue="Application.S04_Varargs_Restoran" />
+        <item itemvalue="Application.S03_Varargs_KargoSirketi" />
+        <item itemvalue="Application.GuncelSaat" />
+        <item itemvalue="Application.S02_DateTime_Saat" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685827780026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2">
+      <created>1686256770212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686256770212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1" />
     <MESSAGE value="v" />
-    <option name="LAST_COMMIT_MESSAGE" value="v" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
