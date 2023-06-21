@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="331981cd-7cdb-45bc-aecf-49b445d8d50a" name="Changes" comment="v1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/Odev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S01_For_Continue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S02_NestedFor_Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S03_DoWhile_TopunSicramasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S04_Array_EuroDolarToplami.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S05_Array_IsaretDegistir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S06_Array_NotOrtalamasi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S07_Array_IsimSiralama.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S08_Array_ETicaret.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/practice02/S09_Array_OturmaPlani.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s01_inheritance/BankaYonetimiUygulamasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s01_inheritance/BireyselMusteriler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s01_inheritance/KurumsalMusteriler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s01_inheritance/Musteri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s01_inheritance/Soru Metni.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s02_abstraction/BilgisayarBilimleri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s02_abstraction/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s02_abstraction/Isletme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s02_abstraction/SoruMetni.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s02_abstraction/UniversiteKursYonetimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s03_encapsulation/Arac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s03_encapsulation/AracKiralamaUygulamasi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/practice05/s03_encapsulation/SoruMetni.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +40,8 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -48,13 +51,13 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/mustafatunc/IdeaProjects/Batch171JavaAdvancedPracticeNT/src/main/java/org/example/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.S09_Array_OturmaPlani">
-    <configuration name="S04_Array_EuroDolarToplami" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice02.S04_Array_EuroDolarToplami" />
+  <component name="RunManager" selected="Application.AracKiralamaUygulamasi">
+    <configuration name="AracKiralamaUygulamasi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice05.s03_encapsulation.AracKiralamaUygulamasi" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice02.*" />
+          <option name="PATTERN" value="practice05.s03_encapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,25 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S06_Array_NotOrtalamasi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice02.S06_Array_NotOrtalamasi" />
+    <configuration name="BankaYonetimiUygulamasi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice05.s01_inheritance.BankaYonetimiUygulamasi" />
       <module name="Batch171JavaAdvancedPracticeNT" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="practice02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="S07_Array_IsimSiralama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice02.S07_Array_IsimSiralama" />
-      <module name="Batch171JavaAdvancedPracticeNT" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="practice02.*" />
+          <option name="PATTERN" value="practice05.s01_inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniversiteKursYonetimi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice05.s02_abstraction.UniversiteKursYonetimi" />
+      <module name="Batch171JavaAdvancedPracticeNT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice05.s02_abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AracKiralamaUygulamasi" />
+        <item itemvalue="Application.UniversiteKursYonetimi" />
+        <item itemvalue="Application.BankaYonetimiUygulamasi" />
         <item itemvalue="Application.S09_Array_OturmaPlani" />
         <item itemvalue="Application.S08_Array_ETicaret" />
-        <item itemvalue="Application.S07_Array_IsimSiralama" />
-        <item itemvalue="Application.S06_Array_NotOrtalamasi" />
-        <item itemvalue="Application.S04_Array_EuroDolarToplami" />
       </list>
     </recent_temporary>
   </component>
